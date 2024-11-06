@@ -23,7 +23,7 @@
             string Food = AskWhatWouldYouLike();
             int Potatos = PotatoAmmount();
             int Sprouts = SproutAmmount();
-            return $"Your lunch {Food} and {Potatos} Potatos and {Sprouts} sprouts";
+            return $"Your lunch is {Food} and {Potatos} Potatos and {Sprouts} sprouts";
         }
 
         public string AskWhatWouldYouLike()
