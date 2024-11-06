@@ -2,7 +2,7 @@
 {
     public class LunchQue
     {
-        private List<string> _lunchItems { get; set; }
+        private List<string> _lunchItems {get; set; }
         private readonly Parser _parser = new Parser();
 
         public LunchQue()
